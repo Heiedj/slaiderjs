@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.slaidshow{
+    width: 1440px;
+    display: flex;
+    overflow: hidden;
+}
+.slaides{
+    width: 5760px;
+    display: flex;
+    transition: 1s;
+
+}
+.slaider, .slaid{
+    height: 500px;
+}
+.slaid{
+    width: 1440px;
+}
+.slaider{
+    width: 1440px;
+    display: flex;
+} 
+.but{
+    z-index: 1;
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    color: white;
+    font-size: 60px;
+}
+i:hover{
+    color: rgb(255, 115, 0);
+}
+#s1{
+    background-image: url(/img/Rectangle13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s2{
+    background-image: url(/img/Rectangle6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s3{
+    background-image: url(/img/Rectangle9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s4{
+    background-image: url(/img/Rectangle5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
